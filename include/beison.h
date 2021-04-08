@@ -156,12 +156,12 @@ namespace beison
 		// asserts idx < size
 		Value& operator[](size_t idx) noexcept
 		{
-			if (idx < this->size()) std::abort();
+			if (idx > this->size()) std::abort();
 			return this->underlying_[idx];
 		}
 		const Value& operator[](size_t idx) const noexcept
 		{
-			if (idx < this->size()) std::abort();
+			if (idx > this->size()) std::abort();
 			return this->underlying_[idx];
 		}
 

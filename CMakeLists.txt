@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-set(beison_VERSION 1.0.0)
+set(beison_VERSION 1.0.1)
 
 project(beison
 	VERSION ${beison_VERSION}
