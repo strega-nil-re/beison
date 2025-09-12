@@ -11,9 +11,7 @@
 #include <utility>
 #include <vector>
 
-#if !defined(BEISON_EXPORT)
-#define BEISON_EXPORT
-#endif
+#include <beison/export_macro.h>
 
 namespace beison
 {
